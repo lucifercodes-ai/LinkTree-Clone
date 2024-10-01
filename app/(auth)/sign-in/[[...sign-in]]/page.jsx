@@ -1,9 +1,12 @@
-import { SignIn } from '@clerk/nextjs'
-import React from 'react'
+import { SignIn } from '@clerk/nextjs';
+import React from 'react';
+import "../../../globals.css";
 
 const SignInPage = () => {
   return (
-    <SignIn />
+    <main className='sign_in_page'>
+        <SignIn />
+    </main>
   );
 }
 

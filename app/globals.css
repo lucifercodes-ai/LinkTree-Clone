@@ -14,6 +14,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-family: "Google Sans", sans-serif;
 }
 
 body {
@@ -40,6 +41,67 @@ a {
     color-scheme: dark;
   }
 }
+
+
+/* ==== clerk class override ===== */
+
+/* .cl-card{
+  background: rgba(26, 25, 25, 0.802);
+  color: white;
+  font-family: "Google Sans", sans-serif;
+}
+
+.cl-headerTitle, .cl-internal, .cl-socialButtons {
+  color: white;
+}
+
+.cl-socialButtonsBlockButton {
+  color: white;
+}
+
+.cl-socialButtonsBlockButton .cl-providerIcon__apple {
+  filter: invert(1);
+}
+
+.cl-dividerLine {
+  background: white;
+}
+
+.cl-dividerText {
+  color: white;
+}
+
+.cl-formFieldLabel {
+  color: white;
+}
+
+.cl-formFieldInput {
+  background: rgba(79, 77, 77, 0.555);
+  color: white;
+  border: 1px solid white;
+}
+
+.cl-internal-1dauvpw {
+  display: none;
+}
+
+.cl-internal-4x6jej{
+  background-color: none;
+  background: none;
+  color: white;
+}
+
+.cl-footerActionText {
+  color: rgb(204, 204, 204);
+  font-family: "Google Sans", sans-serif;
+}
+
+.cl-footerActionLink {
+  color: white;
+  font-family: "Google Sans", sans-serif;
+} */
+
+/* =============================== */
 
 .link_box {
   display: flex;
@@ -113,4 +175,12 @@ a {
   width: 3px;
   background-color: white;
   border-radius: 50%;
+}
+
+.sign_in_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }

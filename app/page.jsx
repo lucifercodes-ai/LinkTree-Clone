@@ -1,11 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import "./globals.css";
+import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <h1>Linktree Clone</h1>
+      <h1>LinkNodes Clone  <UserButton /> </h1>
 
       <div className="ln_box">
         <div className="link_box">
