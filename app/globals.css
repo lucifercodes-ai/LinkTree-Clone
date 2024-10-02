@@ -1,6 +1,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  font-family: "Google Sans", sans-serif;
+}
+
+*{
+  font-family: "Google Sans", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,6 +21,8 @@ body {
   overflow-x: hidden;
   font-family: "Google Sans", sans-serif;
 }
+
+
 
 body {
   color: var(--foreground);
@@ -45,7 +52,7 @@ a {
 
 /* ==== clerk class override ===== */
 
-/* .cl-card{
+.cl-card{
   background: rgba(26, 25, 25, 0.802);
   color: white;
   font-family: "Google Sans", sans-serif;
@@ -59,7 +66,7 @@ a {
   color: white;
 }
 
-.cl-socialButtonsBlockButton .cl-providerIcon__apple {
+.cl-providerIcon__apple {
   filter: invert(1);
 }
 
@@ -71,18 +78,30 @@ a {
   color: white;
 }
 
-.cl-formFieldLabel {
+.cl-formFieldLabel, .cl-internal-z0jvxn, .cl-internal-1vmcfp6, .cl-selectButtonIcon__countryCode {
   color: white;
 }
 
-.cl-formFieldInput {
+.cl-formFieldInput, .cl-button, .cl-internal-167tq3k, .cl-otpCodeFieldInput, .cl-userButtonPopoverMain, .cl-modalBackdrop, .cl-navbarMobileMenuRow, .cl-pageScrollBox, .cl-navbar {
   background: rgba(79, 77, 77, 0.555);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   color: white;
-  border: 1px solid white;
 }
 
-.cl-internal-1dauvpw {
+.cl-internal-1dauvpw, .cl-userButtonPopoverFooter {
   display: none;
+}
+
+.cl-internal-1q12xop, .cl-internal-6lplep {
+  color: white;
+  background-color: #898787c6;
+  border: none;
+}
+
+.cl-internal-6lplep:hover, .cl-internal-1q12xop:hover {
+  background-color: white;
+  color: red;
 }
 
 .cl-internal-4x6jej{
@@ -96,10 +115,23 @@ a {
   font-family: "Google Sans", sans-serif;
 }
 
+.cl-selectOptionsContainer {
+  background-color: rgb(87, 85, 85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: white;
+}
+
+.cl-selectSearchInput, .cl-internal-y6zmdx, .cl-selectOption {
+  color: white;
+  font-family: "Google Sans", sans-serif;
+}
+
 .cl-footerActionLink {
   color: white;
   font-family: "Google Sans", sans-serif;
-} */
+}
+
 
 /* =============================== */
 
@@ -181,6 +213,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 }
